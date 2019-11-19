@@ -46,8 +46,8 @@ command! -nargs=1 ThesaurusQueryReplace :call thesaurus_query#Thesaurus_Query_Lo
 if g:tq_map_keys
     nnoremap <unique><silent> <Leader>cs :ThesaurusQueryReplaceCurrentWord<CR>
     vnoremap <unique><silent> <Leader>cs "ky:ThesaurusQueryReplace <C-r>k<CR>
-    nnoremap <silent> <LocalLeader>cs :ThesaurusQueryReplaceCurrentWord<CR>
-    vnoremap <silent> <LocalLeader>cs "ky:ThesaurusQueryReplace <C-r>k<CR>
+    " nnoremap <silent> <LocalLeader>cs :ThesaurusQueryReplaceCurrentWord<CR>
+    " vnoremap <silent> <LocalLeader>cs "ky:ThesaurusQueryReplace <C-r>k<CR>
 endif
 
 if g:tq_use_vim_autocomplete
